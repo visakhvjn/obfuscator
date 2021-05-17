@@ -7,4 +7,9 @@ export class UserService
     {
         return "Hello World Common!";
     }
+
+    async bye()
+    {
+        return "See you soon!";
+    }
 }
