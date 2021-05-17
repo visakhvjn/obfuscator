@@ -11,4 +11,10 @@ export class UserController
     {
         return await this.UserService.hello();
     }
+
+    @Get("bye")
+    async bye()
+    {
+        return await this.UserService.bye();
+    }
 }
