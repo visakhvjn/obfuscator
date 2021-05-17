@@ -1,1 +1,1 @@
-var client = "mothercare";
+var client = "common";
